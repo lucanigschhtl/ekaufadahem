@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.9980" tests="18" failures="4">
+  <testsuite name="Root Suite" timestamp="2022-11-03T16:48:18" tests="0" file="tests/e2e/specs/nobodyTesting.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Login" timestamp="2022-11-03T16:48:18" tests="9" time="17.8280" failures="1">
+    <testcase name="Test Login Input Fields are there" time="3.9080" classname="Input Fields are there">
+    </testcase>
+    <testcase name="Test Login Navigationt to Password Reset is here" time="3.5320" classname="Navigationt to Password Reset is here">
+    </testcase>
+    <testcase name="Test Login login error works Works" time="0.0000" classname="login error works Works">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Dieses Konto existiert nicht&apos; within the element: &lt;div.alert.alert-warning&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Dieses Konto existiert nicht' within the element: <div.alert.alert-warning> but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\nobodyTesting.js:116:36)]]></failure>
+    </testcase>
+    <testcase name="Test Login check if register link works" time="5.1310" classname="check if register link works">
+    </testcase>
+    <testcase name="Test Login check if password reset link works" time="1.1630" classname="check if password reset link works">
+    </testcase>
+    <testcase name="Test Login check if redirection works from manager" time="1.0490" classname="check if redirection works from manager">
+    </testcase>
+    <testcase name="Test Login check if redirection works from customer" time="1.0720" classname="check if redirection works from customer">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="0.8960" classname="check if redirection works from picker">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="1.0770" classname="check if redirection works from picker">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Create Account" timestamp="2022-11-03T16:48:47" tests="9" time="16.1700" failures="3">
+    <testcase name="Test Create Account Input Fields are there" time="1.4260" classname="Input Fields are there">
+    </testcase>
+    <testcase name="Test Create Account Navigationt to Password Reset is here" time="1.3860" classname="Navigationt to Password Reset is here">
+    </testcase>
+    <testcase name="Test Create Account test if inputs matter" time="5.0020" classname="test if inputs matter">
+    </testcase>
+    <testcase name="Test Create Account test if inputs matter" time="2.5610" classname="test if inputs matter">
+    </testcase>
+    <testcase name="Test Create Account test if registration works" time="0.0000" classname="test if registration works">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Du solltest in den folgenden Minuten eine Email mit einem Bestätigungslink&apos; within the selector: &apos;p&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Du solltest in den folgenden Minuten eine Email mit einem Bestätigungslink' within the selector: 'p' but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\nobodyTesting.js:222:8)]]></failure>
+    </testcase>
+    <testcase name="Test Create Account test if login works" time="4.0640" classname="test if login works">
+    </testcase>
+    <testcase name="Test Create Account test if password reset without input does not work" time="1.7310" classname="test if password reset without input does not work">
+    </testcase>
+    <testcase name="Test Create Account test if password reset with false email does not work" time="0.0000" classname="test if password reset with false email does not work">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Ein Konto mit dieser Email-Adresse ist nicht vorhanden.&apos; within the selector: &apos;[data-cy=&quot;alertbox&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ein Konto mit dieser Email-Adresse ist nicht vorhanden.' within the selector: '[data-cy="alertbox"]' but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\nobodyTesting.js:251:8)]]></failure>
+    </testcase>
+    <testcase name="Test Create Account test if password reset works" time="0.0000" classname="test if password reset works">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Du solltest in den folgenden Minuten eine Email mit einem Link erhalten.&apos; within the selector: &apos;p&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Du solltest in den folgenden Minuten eine Email mit einem Link erhalten.' within the selector: 'p' but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\nobodyTesting.js:257:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

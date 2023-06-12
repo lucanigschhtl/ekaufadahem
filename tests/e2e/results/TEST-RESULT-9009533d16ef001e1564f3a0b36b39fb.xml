@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.3120" tests="9" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-05-13T14:07:54" tests="0" file="tests/e2e/specs/customerTesting.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Login" timestamp="2023-05-13T14:07:54" tests="9" time="40.3120" failures="2">
+    <testcase name="Test Login Input Fields are there" time="10.8440" classname="Input Fields are there">
+    </testcase>
+    <testcase name="Test Login Navigationt to Password Reset is here" time="0.0000" classname="Navigationt to Password Reset is here">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Neues Konto Erstellen&apos; within the selector: &apos;a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Neues Konto Erstellen' within the selector: 'a' but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\customerTesting.js:108:8)]]></failure>
+    </testcase>
+    <testcase name="Test Login login error works Works" time="7.6180" classname="login error works Works">
+    </testcase>
+    <testcase name="Test Login check if register link works" time="0.0000" classname="check if register link works">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;RegisterBtn&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="RegisterBtn"]`, but never found it.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\customerTesting.js:119:8)]]></failure>
+    </testcase>
+    <testcase name="Test Login check if password reset link works" time="7.9540" classname="check if password reset link works">
+    </testcase>
+    <testcase name="Test Login check if redirection works from manager" time="3.8200" classname="check if redirection works from manager">
+    </testcase>
+    <testcase name="Test Login check if redirection works from customer" time="3.0310" classname="check if redirection works from customer">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="3.3430" classname="check if redirection works from picker">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="3.7020" classname="check if redirection works from picker">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+{
+    "name": "Ekaufa Dahem",
+    "short_name": "ekaufadahem",
+    "theme_color": "#55AF32",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000"
+}

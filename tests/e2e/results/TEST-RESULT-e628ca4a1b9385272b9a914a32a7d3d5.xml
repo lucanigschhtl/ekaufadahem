@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.0710" tests="9" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-03T16:27:52" tests="0" file="tests/e2e/specs/customerTesting.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Login" timestamp="2022-11-03T16:27:52" tests="9" time="22.0710" failures="1">
+    <testcase name="Test Login Input Fields are there" time="4.6990" classname="Input Fields are there">
+    </testcase>
+    <testcase name="Test Login Navigationt to Password Reset is here" time="2.6920" classname="Navigationt to Password Reset is here">
+    </testcase>
+    <testcase name="Test Login login error works Works" time="0.0000" classname="login error works Works">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Dieses Konto existiert nicht&apos; within the element: &lt;div.alert.alert-warning&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Dieses Konto existiert nicht' within the element: <div.alert.alert-warning> but never did.
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\customerTesting.js:115:36)]]></failure>
+    </testcase>
+    <testcase name="Test Login check if register link works" time="3.6350" classname="check if register link works">
+    </testcase>
+    <testcase name="Test Login check if password reset link works" time="2.8430" classname="check if password reset link works">
+    </testcase>
+    <testcase name="Test Login check if redirection works from manager" time="1.7800" classname="check if redirection works from manager">
+    </testcase>
+    <testcase name="Test Login check if redirection works from customer" time="2.1960" classname="check if redirection works from customer">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="2.4970" classname="check if redirection works from picker">
+    </testcase>
+    <testcase name="Test Login check if redirection works from picker" time="1.7290" classname="check if redirection works from picker">
+    </testcase>
+  </testsuite>
+</testsuites>

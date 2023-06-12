@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.3550" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-13T14:19:58" tests="0" file="tests/e2e/specs/loginTesting.test.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2023-05-13T14:19:58" tests="2" time="11.3550" failures="1">
+    <testcase name="Login should display an error message for invalid login credentials" time="11.3550" classname="should display an error message for invalid login credentials">
+    </testcase>
+    <testcase name="Login should display an error message for an incorrect password" time="0.0000" classname="should display an error message for an incorrect password">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div.alert.alert-warning&gt;&apos; to contain &apos;Falsches Passwort&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div.alert.alert-warning>' to contain 'Falsches Passwort'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=tests\e2e\specs\loginTesting.test.js:124:34)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

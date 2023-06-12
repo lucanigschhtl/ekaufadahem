@@ -1,0 +1,102 @@
+{
+  "name": "webshop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development --host 0.0.0.0",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": " npx cypress open --browser chrome",
+    "test:e2eheadless": " npx cypress run --reporter junit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/interaction": "^5.10.1",
+    "@fullcalendar/list": "^5.10.1",
+    "@fullcalendar/moment": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "@fullcalendar/vue": "^5.10.1",
+    "@sentry/browser": "^7.50.0",
+    "@sentry/tracing": "^6.16.1",
+    "@sentry/vue": "^6.19.7",
+    "axios-middleware": "^0.3.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.5.0",
+    "bootstrap-vue": "^2.21.2",
+    "continuation-local-storage": "^3.2.1",
+    "core-js": "^3.6.5",
+    "i": "^0.3.7",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.4",
+    "moment": "^2.29.1",
+    "mongodb": "^5.5.0",
+    "nodemailer": "^6.9.2",
+    "npm": "^7.24.2",
+    "register-service-worker": "^1.7.1",
+    "v-calendar": "^2.3.4",
+    "vue": "^2.6.14",
+    "vue-html-to-paper": "^1.4.4",
+    "vue-moment": "^4.1.0",
+    "vue-moment-lib": "^1.2.2",
+    "vue-router": "^3.2.0",
+    "vue-store": "^0.3.1-moved",
+    "vue-sweetalert2": "^5.0.5",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.10.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "^5.0.8",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-unit-mocha": "^5.0.8",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/test-utils": "^1.1.3",
+    "axios": "^0.21.3",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "cypress": "^12.13.0",
+    "cypress-junit-reporter": "^1.3.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": 1,
+      "no-debugger": 1
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "iOS >= 8"
+  ]
+}
